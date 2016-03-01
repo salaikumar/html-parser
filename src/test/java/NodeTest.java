@@ -1,4 +1,5 @@
 import org.junit.Test;
+import utils.Tag;
 
 import java.util.ArrayList;
 import java.util.List;

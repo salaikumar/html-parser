@@ -1,3 +1,5 @@
+import utils.Tag;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -67,5 +69,20 @@ public class Node {
 
     public void setContent(String content) {
         this.content = content;
+    }
+
+    @Override
+    public String toString(){
+        return content;
+    }
+
+    @Override
+    public int hashCode(){
+        return 0;
+    }
+
+    @Override
+    public boolean equals(Object obj){
+        return false;
     }
 }
